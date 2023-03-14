@@ -107,6 +107,8 @@ div.buttons-action button:nth-child(1) {
 div.buttons-action button:nth-child(1) a {
   padding: 16px 32px;
   width: 100%;
+  
+  color: black;
 
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
