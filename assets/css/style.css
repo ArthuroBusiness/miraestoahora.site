@@ -70,7 +70,7 @@ div.buttons-action {
   gap: 16px;
 
   padding-inline: 16px;
-  margin-block: 56px;
+  margin-block: 24px;
 }
 
 @media (max-width: 460px) {
