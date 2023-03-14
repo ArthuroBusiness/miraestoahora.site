@@ -226,6 +226,13 @@ footer .terms-privacity {
   justify-content: center;
   gap: 0.8rem;
   margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 500px) {
+  footer .terms-privacity {
+    font-size: 1rem;
+  }
 }
 
 footer .terms-privacity a {
