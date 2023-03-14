@@ -14,9 +14,9 @@ div.headline {
 }
 
 div.headline img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  max-height: 130px;
+  max-height: 150px;
 }
 
 div.sub-headline {
