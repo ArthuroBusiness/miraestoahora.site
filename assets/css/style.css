@@ -232,14 +232,17 @@ footer .terms-privacity a {
   font-size: 1.6rem;
   text-decoration: underline;
   font-weight: bold;
-  color: white
-  -webkit-text-fill-color: white;
+  color: white;
+  -webkit-text-fill-color: white !important;
 }
 
-@media(max-width: 500px{
-  font-size: 1rem
+@media (max-width: 500px) {
+  footer .terms-privacity a {
+    font-size: 1rem;
+  }
 }
 
 footer p.description {
   font-size: 1.4rem;
 }
+
