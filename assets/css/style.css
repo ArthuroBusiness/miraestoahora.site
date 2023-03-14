@@ -109,6 +109,7 @@ div.buttons-action button:nth-child(1) a {
   width: 100%;
   
   color: black !important;
+  -webkit-text-fill-color: black;
 
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
