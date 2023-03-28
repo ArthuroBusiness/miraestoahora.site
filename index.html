@@ -86,6 +86,12 @@
   src="https://www.facebook.com/tr?id=5850156331748315&ev=PageView&noscript=1"
 /></noscript>
     <!-- Final da adição de <noscript></noscript> -->
+    const actionButtons = document.querySelector('.buttons-action');
+
+const timeOutButtons = setTimeout(() => {
+  actionButtons.style.display = 'flex';
+  clearTimeout(timeOutButtons);
+}, 30 * 1000); // Faz o actionButtons ser mostrado após 15 segundos
 
     <script src="./assets/js/pixelFacebook.js"></script>
     <script src="./assets/js/vsl.js"></script>
