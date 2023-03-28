@@ -10,7 +10,6 @@ html {
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  background-color: #000;
 }
 :focus {
   outline: 0;
