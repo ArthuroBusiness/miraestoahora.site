@@ -1,5 +1,5 @@
 :root {
-  font-size: 65%;
+  font-size: 62.5%;
 }
 
 *,
@@ -19,13 +19,9 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.6rem;
   color: black;
+  background-color: #FFF;
 
   -webkit-font-smoothing: antialiased;
-  
-  background-image: url('../images/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 a {

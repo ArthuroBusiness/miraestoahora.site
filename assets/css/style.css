@@ -1,11 +1,6 @@
 main {
   min-height: 100vh;
-  background-image: url('../images/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  padding-bottom: 3.2rem;
+  padding-block: 3.2rem;
 }
 
 div.headline {
@@ -78,14 +73,51 @@ div.buttons-action {
   }
 }
 
+section.prices {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-block: 2.4rem;
+}
+
+.prices .default-price {
+  color: red;
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  .prices .default-price {
+    font-size: 2.8rem;
+  }
+}
+
+.prices .discount-price {
+  color: blue;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  .prices .discount-price {
+    font-size: 2.4rem;
+  }
+}
+
+span.line-through {
+  text-decoration: line-through;
+}
+
 /* Início do primeiro botão */
 div.buttons-action button:nth-child(1) {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-color: #14ff2c;
-  box-shadow: 0px 0px 23px 7px rgba(20, 255, 44, 0.77);
+  background-color: #FFED00;
+  box-shadow: 0px 0px 23px 7px rgba(255, 237, 0, 0.77);
 
   border: 1px solid black;
   border-radius: 14px;
@@ -106,7 +138,7 @@ div.buttons-action button:nth-child(1) {
 div.buttons-action button:nth-child(1) a {
   padding: 16px 32px;
   width: 100%;
-  
+
   color: black !important;
   -webkit-text-fill-color: black;
 
@@ -127,12 +159,14 @@ div.buttons-action button:nth-child(1) a {
     font-size: 1.4rem;
   }
 }
+
 @media (max-width: 425px) {
   div.buttons-action button:nth-child(1) a {
     padding-inline: 8px;
     font-size: 1.2rem;
   }
 }
+
 /* Fim do primeiro botão */
 
 /* Inicio do segundo botão */
@@ -141,10 +175,10 @@ div.buttons-action button:nth-child(2) {
   align-items: center;
   justify-content: center;
 
-  background-color: transparent;
-  /* box-shadow: 0px 0px 23px 14px rgba(255, 255, 255, 0.86); */
+  color: blue;
 
-  /* border: 2px solid black; */
+  background-color: transparent;
+
   border-radius: 14px;
   width: 100%;
 }
@@ -159,7 +193,9 @@ div.buttons-action button:nth-child(2) a {
   padding: 12px 28px;
   width: 100%;
 
-  color: black;
+  color: blue;
+  -webkit-text-fill-color: blue;
+
   font-family: 'Poppins', sans-serif;
   text-decoration: underline;
   font-style: italic;
@@ -170,6 +206,7 @@ div.buttons-action button:nth-child(2) a {
 div.buttons-action button:nth-child(2) a div {
   margin-top: .4rem;
 }
+
 /* Fim do segundo botão */
 
 @keyframes scaleAnimation {
@@ -183,78 +220,5 @@ div.buttons-action button:nth-child(2) a div {
 
   100% {
     transform: scale(1);
-  }
-}
-
-footer {
-  background: black;
-  color: white;
-
-  padding: 4.8rem;
-  text-align: center;
-
-  margin-top: -2px;
-
-  font-family: 'Open Sans', sans-serif;
-}
-
-@media (max-width: 500px) {
-  footer {
-    padding-inline: 1.6rem;
-  }
-}
-
-footer .copyright {
-  font-size: 1.8rem;
-  margin-bottom: 1.6rem;
-}
-
-@media (max-width: 500px) {
-  footer .copyright {
-    font-size: 1.4rem;
-  }
-}
-
-footer .rights {
-  font-size: 1.4rem;
-  margin-bottom: 3.6rem;
-}
-
-footer .terms-privacity {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  margin-bottom: 1.2rem;
-  font-size: 1.6rem;
-}
-
-@media (max-width: 500px) {
-  footer .terms-privacity {
-    font-size: 1rem;
-  }
-}
-
-footer .terms-privacity a {
-  font-size: 1.6rem;
-  text-decoration: underline;
-  font-weight: bold;
-  color: white;
-  -webkit-text-fill-color: white !important;
-}
-
-@media (max-width: 500px) {
-  footer .terms-privacity a {
-    font-size: 1rem;
-  }
-}
-
-footer p.description {
-  font-size: 1.4rem;
-}
-
-@media (max-width: 500px) {
-footer p.description {
-  font-size: 1rem;
   }
 }
