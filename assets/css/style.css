@@ -44,7 +44,13 @@ div.video {
 
   margin: 0 auto;
 
-  max-width: 80%;
+  max-width: 70%;
+}
+
+@media (max-width: 728px) {
+  div.video {
+    max-width: 90%;
+  }
 }
 
 p.vsl-text {
