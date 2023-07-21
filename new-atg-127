@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../assets/css/reset.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <title>Plan Quema Termico</title>
+</head>
+
+<body>
+  <main>
+    <div class="video">
+      <!-- Começo da inserção do VSL -->
+     <div id="vid_64b6b3974d8d330009ae10c0" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_64b6b3974d8d330009ae10c0" src="https://images.converteai.net/8e8b10cf-f744-4be4-93f7-1e5af0afd247/players/64b6b3974d8d330009ae10c0/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_64b6b3974d8d330009ae10c0" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_64b6b3974d8d330009ae10c0">var s=document.createElement("script");s.src="https://scripts.converteai.net/8e8b10cf-f744-4be4-93f7-1e5af0afd247/players/64b6b3974d8d330009ae10c0/player.js",s.async=!0,document.head.appendChild(s);</script>
+    </div>
+
+    <p class="vsl-text">🔊¡REVISA QUE TU SONIDO ESTÉ ACTIVADO!</p>
+
+    <section class="prices">
+      <p class="default-price">
+        PRECIO NORMAL
+        <span class="line-through">$497</span>
+      </p>
+      <p class="discount-price">
+        Sólo hoy $27
+      </p>
+    </section>
+
+    <div class="buttons-action">
+      <!-- Inicio do botão verde -->
+      <button>
+        <a href="https://pay.hotmart.com/K84811937R?checkoutMode=10&bid=1689896585596" target="_blank">
+          ¡COMPRAR AHORA!
+        </a>
+      </button>
+      <!-- Final do botão verde -->
+
+      <!-- Início do botão Preto -->
+      <button>
+        <a href="https://pay.hotmart.com/K84811937R?checkoutMode=10&bid=1689896585596" target="_blank">
+          <div>
+            <img src="./assets/images/shopping-cart.svg" alt="" />
+          </div>
+          ¡Haga clic aquí para comprar ahora!
+        </a>
+      </button>
+      <!-- Final do botão preto -->
+    </div>
+  </main>
+
+  <!-- Inicio da adição de <noscript></noscript> -->
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=5850156331748315&ev=PageView&noscript=1" /></noscript>
+  <!-- Final da adição de <noscript></noscript> -->
+
+  <script src="../assets/js/pixelFacebook.js"></script>
+  <script src="../assets/js/vsl.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
