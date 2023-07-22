@@ -5,4 +5,4 @@ const timeOutButtons = setTimeout(() => {
   actionButtons.style.display = 'flex';
   pricesSection.style.display = 'flex';
   clearTimeout(timeOutButtons);
-}, 1821 * 1000); // Faz o actionButtons ser mostrado após 15 segundos
+}, 1815 * 1000); // Faz o actionButtons ser mostrado após 15 segundos
