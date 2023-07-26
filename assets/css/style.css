@@ -228,3 +228,7 @@ div.buttons-action button:nth-child(2) a div {
     transform: scale(1);
   }
 }
+
+.esconder {
+  display: none
+}
