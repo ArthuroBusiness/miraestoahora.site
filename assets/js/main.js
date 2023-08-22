@@ -1,4 +1,4 @@
-const secondsToButtonsAppear = 1540
+const secondsToButtonsAppear = 0
 
 const actionButtons = document.querySelector('.buttons-action');
 const pricesSection = document.querySelector('.prices');
